@@ -89,7 +89,7 @@ public class Mapeamento {
             return this;
         }
 
-        public MapeamentoBuilder adicionarNomeInstanciaClasse(String nomeInstanciaClasse){
+        public MapeamentoBuilder adicionarInstanciaClasse(String nomeInstanciaClasse){
             this.nomeInstanciaDominio = nomeInstanciaClasse;
             return this;
         }
@@ -119,8 +119,8 @@ public class Mapeamento {
             return this;
         }
 
-        public MapeamentoBuilder adicionarNomeInterface(String nomeInterfaceMapper){
-            this.nomeMapper = nomeInterfaceMapper;
+        public MapeamentoBuilder adicionarNomeMapper(String nomeMapper){
+            this.nomeMapper = nomeMapper;
             return this;
         }
 

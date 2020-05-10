@@ -7,10 +7,10 @@ public class App {
         //EXEMPLO DE PREENCHIMENTO DOS VALORES NECESSARIOS PARA GERAR OS ARQUIVOS
         Mapeamento mapeamento = Mapeamento.builder()
                 .adicionarPacoteDestino("br.com.exemplo.mapper")
-                .adicionarNomeInterface("FilialMapper")
+                .adicionarNomeMapper("FilialMapper")
                 .adicionarPacoteDominio("br.com.exemplo.model")
                 .adicionarClasseDominio("Filial")
-                .adicionarNomeInstanciaClasse("filial")
+                .adicionarInstanciaClasse("filial")
                 .adicionarEsquema("cadastro")
                 .adicionarTabela("ca04_entrada")
                 .adicionarMapeamento("id", "ca04_id" )
