@@ -1,2 +1,7 @@
-!/src
+*
+!.gitignore
+!.gitattributes
+!README.md
+!src
+!src/**/*
 !pom.xml
