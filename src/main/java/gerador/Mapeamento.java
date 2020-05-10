@@ -56,7 +56,7 @@ public class Mapeamento {
         return getGeraInterface();
     }
 
-    public static Mapeamento.MapeamentoBuilder builder(){
+    public static MapeamentoBuilder builder(){
         return new MapeamentoBuilder();
     }
 
@@ -124,8 +124,8 @@ public class Mapeamento {
             return this;
         }
 
-        public MapeamentoBuilder adicionarPacoteDestino(String pacoteDestino){
-            this.pacoteMapper = pacoteDestino;
+        public MapeamentoBuilder adicionarPacoteMapper(String pacoteMapper){
+            this.pacoteMapper = pacoteMapper;
             return this;
         }
 

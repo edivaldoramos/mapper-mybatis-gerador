@@ -6,7 +6,7 @@ public class App {
     public static void main(String[] args) throws IOException {
         //EXEMPLO DE PREENCHIMENTO DOS VALORES NECESSARIOS PARA GERAR OS ARQUIVOS
         Mapeamento mapeamento = Mapeamento.builder()
-                .adicionarPacoteDestino("br.com.exemplo.mapper")
+                .adicionarPacoteMapper("br.com.exemplo.mapper")
                 .adicionarNomeMapper("FilialMapper")
                 .adicionarPacoteDominio("br.com.exemplo.model")
                 .adicionarClasseDominio("Filial")
