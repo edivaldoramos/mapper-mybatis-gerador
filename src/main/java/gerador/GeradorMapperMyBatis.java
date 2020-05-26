@@ -37,7 +37,7 @@ public class GeradorMapperMyBatis {
         String nomeResultMap = String.format("%s%s", PREFIXO_RESULT_MAP_NAME, mapeamento.getClasseDominio());
         StringBuilder conteudo = new StringBuilder();
         conteudo.append(CABECALHO_PADRAO + "\n\n");
-        conteudo.append(String.format("<mapper namespace=%s.%s>\n\n", mapeamento.getPacoteMapper(), mapeamento.getNomeMapper()));
+        conteudo.append(String.format("<mapper namespace=\"%s.%s\">\n\n", mapeamento.getPacoteMapper(), mapeamento.getNomeMapper()));
         conteudo.append(String.format("\t<resultMap id=\"%s\" type=\"%s.%s\">\n", nomeResultMap, mapeamento.getPacoteDominio(), mapeamento.getClasseDominio()));
 
         String colunaId = "";
