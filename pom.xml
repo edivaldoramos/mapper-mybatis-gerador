@@ -6,7 +6,7 @@
 
     <groupId>org.example</groupId>
     <artifactId>mapper-mybatis-gerador</artifactId>
-    <version>1.0</version>
+    <version>1.0.1</version>
     <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>
